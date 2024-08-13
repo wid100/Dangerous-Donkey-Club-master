@@ -1,0 +1,561 @@
+
+/*------------------- Intro Section  ----------------*/
+@media only screen and (max-width:1240px){
+.intro{
+  background-size: cover;
+  padding: 50px 0 100px 0;
+  position: relative;
+}
+.hero-img-1 img{
+  width: 150px;
+}
+
+.hero-img-2 img{
+  width: 100px;
+}
+}
+
+@media only screen and (max-width:900px){
+  h1{
+    font-size: 30px;
+  }
+  .mint-no-btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 18px;
+  font-family: var(--primary-font-family);
+}
+.join-discord-btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 18px;
+    font-family: var(--primary-font-family);
+}
+.twitter-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  margin: 0 10px;
+  font-size: 18px;
+    font-family: var(--primary-font-family);
+}
+ .hero-img-1 img{
+  width: 80px;
+}
+
+.hero-img-2 img{
+  width: 60px;
+}
+  
+}
+@media only screen and (max-width:540px){
+    .padding-top-200 {
+        padding-top: 100px;
+      }
+ .intro-btn-group{
+  flex-direction: column;
+ }
+ .mint-no-btn{
+  margin: 10px 0;
+ }
+ .join-discord-btn{
+  margin: 10px 0;
+ }
+ .twitter-btn{
+  margin: 10px 0;
+ }
+ .hero-img-1{
+  display: none;
+}
+ .hero-img-2{
+  display: none;
+
+}
+
+
+
+}
+@media only screen and (max-width:420px){
+
+
+}
+
+
+
+/*------------------- Roadmap Section  ----------------*/
+@media(max-width: 1400px){
+    .step-img{
+        width: 270px;
+    }
+    .step-status > p{
+        font-size: 30px;
+    }
+    .step-title{
+        font-size: 50px;
+    }
+    .roadmap-para{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 1250px){
+    .step-img{
+        width: 250px;
+    }
+    .step-status{
+        height: 45px;
+        padding: 0 20px;
+        top: -20px;
+    }
+    .step-status > p{
+        font-size: 25px;
+    }
+    .step-title{
+        font-size: 40px;
+    }
+    .roadmap-para{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
+@media(max-width: 1050px){
+    .step-img{
+        width: 220px;
+    }
+    .text-box{
+        padding: 50px 30px;
+    }
+    .step-status{
+        height: 40px;
+    }
+    .step-status > p{
+        font-size: 22px;
+    }
+    .step-title{
+        font-size: 35px;
+    }
+    .roadmap-para{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .card-img{
+        width: 220px;
+        height: 220px;
+        position: relative;
+        top: -200px;
+    }
+}
+@media(max-width: 920px){
+    .roadmap-content{
+        gap: 50px 0;
+    }
+    .roadmap-step::before{
+        display: none;
+    }
+    .roadmap-step::after{
+        display: none;
+    }
+    .roadmap-step-container{
+        justify-content: center;
+        gap: 50px 0;
+        padding: 0 30px;
+    }
+    .roadmap-step{
+        flex-basis: 80%;
+    }
+}
+@media(max-width: 780px){
+    .card-img{
+        width: 200px;
+        height: 200px;
+    }
+    .member-name{
+        font-size: 40px;
+    }
+    .member-title{
+        font-size: 20px;
+    }
+}
+@media(max-width: 735px){
+    .card{
+        flex-basis: 100%;
+    }
+}
+@media(max-width: 550px){
+    .roadmap-content{
+        gap: 20px 0;
+    }
+    .step-img{
+        width: 200px;
+    }
+    .step-status{
+        height: 35px;
+        top: -17px;
+    }
+    .step-status > p{
+        font-size: 20px;
+    }
+    .step-title{
+        font-size: 30px;
+    }
+    .roadmap-para{
+        font-size: 15px;
+    }
+    .roadmap-step{
+        flex-basis: 90%;
+    }
+    .roadmap-step-container{
+        justify-content: center;
+        gap: 0;
+        padding: 0 50px;
+    }
+}
+@media(max-width: 450px){
+    .step-img{
+        width: 150px;
+    }
+    .text-box{
+        top: -50px;
+        padding: 30px 20px;
+    }
+    .step-status{
+        height: 30px;
+        top: -15px;
+        padding: 0 10px;
+    }
+    .step-status > p{
+        font-size: 17px;
+    }
+    .step-title{
+        font-size: 25px;
+    }
+    .roadmap-para{
+        font-size: 13px;
+    }
+    .roadmap-step{
+        flex-basis: 100%;
+    }
+}
+
+
+  /* Price Section */
+  @media only screen and (max-width:1216px){
+  
+    .price-container{
+        padding: 100px 0 100px 0;
+      
+    }
+    .price-item{
+        position: relative;
+    
+    }
+   
+    .price-content{
+       
+        gap: 30px;
+        z-index: 10;
+    }
+    .item{
+        width: 450px;
+        height: fit-content;
+        padding: 10px 10px
+    
+    }
+    .item p{
+        font-size: 30px;
+       
+    }
+    .item span{
+        padding-top: 10px;
+        font-size: 30px;
+        
+    }
+  
+  }
+    
+  @media only screen and (max-width:688px){
+  
+    .price-container{
+        padding: 90px 0 90px 0;
+      
+    }
+    .price-item{
+        position: relative;
+    
+    }
+   
+    .price-content{  
+        gap: 10px;
+        z-index: 10;
+    }
+    .item{
+        width: 200px;
+        height: fit-content;
+        padding: 10px 10px
+    
+    }
+    .item p{
+        font-size: 15px;
+       
+    }
+    .item span{
+        padding-top: 10px;
+        font-size: 15px;
+        
+    }
+  
+  }
+  /* Team Section */
+  @media only screen and (max-width:1168px){
+    .team-card-container{
+      flex-direction: column;
+      }
+    .team-container{
+        padding: 100px 0 100px 0;
+       
+    }
+    .team-container h1{
+       font-size: 40px;
+    }
+    .team-contant .team-1>p:nth-child(1){  
+        font-size: 25px;   
+    }
+    .team-contant .team-1>p:nth-child(2){
+        font-size: 25px;
+    }
+    .team-contant .team-2>p:nth-child(1){
+       
+        font-size: 25px;    
+    }
+    .team-contant .team-2>p:nth-child(2){
+        font-size: 25px; 
+    }
+    .team-contant .team-3>p:nth-child(1){
+       font-size: 25px; 
+    }
+    .team-contant .team-3>p:nth-child(2){
+        font-size: 25px;  
+    }
+    .team-card-it .team-4>p:nth-child(1){   
+        font-size: 25px;  
+    }
+    .team-card-it .team-4>p:nth-child(2){
+        font-size: 25px;
+        
+    }
+  }
+  @media only screen and (max-width:741px){
+    .team {
+        padding: 0 0 100px 0;
+      }
+    .team-container{
+        padding: 100px 0 100px 0;
+    }
+    .team-container h1{
+       font-size: 50px;
+    }
+    .team-contant .team-1>p:nth-child(1){  
+        font-size: 30px;   
+    }
+    .team-contant .team-1>p:nth-child(2){
+        font-size: 30px;
+    }
+    .team-contant .team-2>p:nth-child(1){
+       
+        font-size: 30px;    
+    }
+    .team-contant .team-2>p:nth-child(2){
+        font-size: 30px; 
+    }
+    .team-contant .team-3>p:nth-child(1){
+       font-size: 30px; 
+    }
+    .team-contant .team-3>p:nth-child(2){
+        font-size: 30px;  
+    }
+    .team-card-it .team-4>p:nth-child(1){   
+        font-size: 30px;  
+    }
+    .team-card-it .team-4>p:nth-child(2){
+        font-size: 25px;
+        
+    }
+
+  }
+
+
+
+
+/*------------------ community Section  ----------------*/
+
+@media only screen and (max-width:1240px){
+
+    .community-box h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+      }
+      .community-side-img-1{
+        position: absolute;
+        left: 0;
+        bottom: 100px;
+        z-index: -2;
+      }
+      .community-side-img-1 img{
+        width: 200px;
+      }
+      .community-side-img-2{
+        position: absolute;
+        right: 0;
+        bottom: 100px;
+        z-index: -2;
+      }
+      .community-side-img-2 img{
+        width: 150px;
+      }
+}
+@media only screen and (max-width:500px){
+    .community{
+        padding: 80px 0;
+        position: relative;
+      }
+    .community-box h1{
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 50px;
+      }
+      .community-side-img-1{
+        position: absolute;
+        left: 0;
+        bottom: 150px;
+        z-index: -2;
+      }
+      .community-side-img-1 img{
+        width: 80px;
+      }
+      .community-side-img-2{
+        position: absolute;
+        right: 0;
+        bottom: 150px;
+        z-index: -2;
+      }
+      .community-side-img-2 img{
+        width: 60px;
+      }
+      .community-btns a img{
+        width: 40px;
+      }
+      .join-discord-btn-2{
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+      }
+}
+
+/*------------------ footer Section  ----------------*/
+
+@media only screen and (max-width:1240px){
+    .footer{
+        position: relative;
+        padding: 10px 0 50px 0;
+    }
+    .footer-img-1 img{
+        width: 200px;
+    }
+    .footer-img-2 img{
+        width: 200px;
+    }
+    .stamp .creator p {
+        font-size: 20px;
+      
+      }
+    .stamp .creator a {
+        font-size: 20px;
+      
+      }
+    .stamp .creator a img{
+        width: 40px;
+      }
+}
+@media only screen and (max-width:1240px){
+    .footer{
+        position: relative;
+        padding: 0px 0 150px 0;
+    }
+    .footer-img-1 img{
+        width: 100px;
+    }
+    .footer-img-2 img{
+        width: 100px;
+    }
+    .stamp .creator p {
+        font-size: 16px;
+      
+      }
+    .stamp .creator a {
+        font-size: 16px;
+      
+      }
+    .stamp .creator a img{
+        width: 40px;
+      }
+      .social img{
+        width: 40px;
+        margin: 0 5px;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+.card-box{
+  display: none;
+}
+.team-box{
+  display: none;
+}
+.team-box-mobi{
+  display: block;
+  padding: 50px 0;
+}
+.team-last-card{
+  position: relative;
+}
+.l-team-img img{
+  width: 100%;
+}
+.l-team-name{
+  width: 80%;
+    position: absolute;
+    bottom: -34px;
+    left: 36px;
+    background: #FF5454;
+    padding: 20px;
+    border-radius: 100px;
+
+}
+.l-team-name h2{
+  text-align: center;
+  font-family: var(--primary-font-family);
+  color: #ffffff;
+}
+.team-box-mobi p{
+  margin-top: 50px;
+  font-family: var(--primary-font-family);
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+}
+
+
+
+
+
+

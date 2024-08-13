@@ -1,0 +1,29 @@
+{
+  "name": "dangerous-donkey-club",
+  "version": "1.0.0",
+  "description": "Smart contracts created for Dangerous Donkey Club nft collections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diego-c22/Dangerous-Donkey-Club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diego-c22/Dangerous-Donkey-Club/issues"
+  },
+  "homepage": "https://github.com/Diego-c22/Dangerous-Donkey-Club#readme",
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.7.2",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-solhint": "^2.0.1"
+  }
+}
